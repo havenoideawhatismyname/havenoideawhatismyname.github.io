@@ -81,13 +81,6 @@
   </url>
   
   <url>
-    <loc>http://havenoideawhatismyname.github.io/tags/github/</loc>
-    <lastmod>2022-12-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://havenoideawhatismyname.github.io/tags/%E7%88%B1%E5%A5%BD/</loc>
     <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,6 +96,13 @@
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/tags/%E7%89%A9%E7%90%86/</loc>
+    <lastmod>2022-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://havenoideawhatismyname.github.io/tags/github/</loc>
     <lastmod>2022-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

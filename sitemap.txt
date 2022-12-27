@@ -7,10 +7,10 @@ http://havenoideawhatismyname.github.io/tags/index.html
 http://havenoideawhatismyname.github.io/about/index.html
 http://havenoideawhatismyname.github.io/
 http://havenoideawhatismyname.github.io/tags/hexo/
-http://havenoideawhatismyname.github.io/tags/github/
 http://havenoideawhatismyname.github.io/tags/%E7%88%B1%E5%A5%BD/
 http://havenoideawhatismyname.github.io/tags/%E6%95%B0%E5%AD%A6/
 http://havenoideawhatismyname.github.io/tags/%E7%89%A9%E7%90%86/
+http://havenoideawhatismyname.github.io/tags/github/
 http://havenoideawhatismyname.github.io/categories/%E7%BA%AA%E5%BF%B5/
 http://havenoideawhatismyname.github.io/categories/%E5%BA%9F%E8%AF%9D/
 http://havenoideawhatismyname.github.io/categories/%E7%BA%AA%E5%BF%B5/%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99/
