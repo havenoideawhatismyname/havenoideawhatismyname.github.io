@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://havenoideawhatismyname.github.io/gallery/index.html</loc>
+    
+    <lastmod>2022-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://havenoideawhatismyname.github.io/2022/12/26/%E5%92%8C%E6%95%B0%E5%AD%A6/</loc>
     
     <lastmod>2022-12-26</lastmod>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>http://havenoideawhatismyname.github.io/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,35 +84,35 @@
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/tags/hexo/</loc>
-    <lastmod>2022-12-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://havenoideawhatismyname.github.io/tags/%E7%88%B1%E5%A5%BD/</loc>
-    <lastmod>2022-12-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://havenoideawhatismyname.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2022-12-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://havenoideawhatismyname.github.io/tags/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/tags/github/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://havenoideawhatismyname.github.io/tags/%E7%88%B1%E5%A5%BD/</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://havenoideawhatismyname.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://havenoideawhatismyname.github.io/tags/%E7%89%A9%E7%90%86/</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -112,21 +121,21 @@
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/categories/%E7%BA%AA%E5%BF%B5/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/categories/%E5%BA%9F%E8%AF%9D/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://havenoideawhatismyname.github.io/categories/%E7%BA%AA%E5%BF%B5/%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2022-12-27</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
