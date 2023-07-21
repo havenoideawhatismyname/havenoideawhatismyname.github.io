@@ -24,7 +24,7 @@ body
     line-height: 1.75;
     letter-spacing: 0.6px;
     color: var(--font-color-1);
-    background: #e4e4e4;
+    background: #efeaf2;
 }
 a
 {
@@ -33,14 +33,15 @@ a
 }
   a:hover {
     color: #663366;
-    text-decoration: underline;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #6B8386;
     }
 
 
 .paper
 {
     padding: 4vw;
-    background: #e4e4e4;
+    background: #efeaf2;
 }
 .paper-main
 {
@@ -537,11 +538,12 @@ a
 } 
 
 .archive-main a:visited { 
-    color:#9c9caf; 
+    color:#663366; 
     text-decoration: underline; 
 } 
 .archive-main a:hover {
-    color:#000000;
+    color:#663366;
+    text-shadow: 0px 0px 0px #6B8386;
     text-decoration: underline; 
 }
 
@@ -565,7 +567,9 @@ a
 }
 
 .header a:hover {
+    color: #663366;
     text-decoration: none;
+    text-shadow: 1px 1px 2px #6B8386;
 }
 
 
