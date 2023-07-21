@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="单片机小知识" />
+    <meta name="hexo-theme-A4" content="v1.7.0" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Le Train de Nulle Part | Press any key to continue ▮</title>
+
+    
+        
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/reset.css">
+
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css">
+
+            
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css">
+ 
+            <!--注意：首页既不是post也不是page-->
+            
+                
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/waline.css">
+
+            
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+    
+    <body>
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Le Train de Nulle Part</a> 
+            <span class="description">倘若我们忽然之间统统变成了旁人呢</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/tags/">标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">分类</a></li>
+            
+        
+            
+                <li><a target="_blank" rel="noopener" href="https://lit.link/Chicom424">🚪</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            单片机小知识
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%90%8D%E8%AF%8D"><span class="post-toc-text">名词</span></a></li></ol>
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><p>单片机就是一个袖珍计算机，虽然性能不如计算机，但是它的大小和价格都使得它能被广泛运用。</p>
+<h2 id="名词"><a href="#名词" class="headerlink" title="名词"></a>名词</h2><p>程序运行：CPU控制寄存器控制驱动器</p>
+<p>LED灯：发光二极管，受到高电平就会发光</p>
+<p>电阻上的102：10 00→1K 483：48000，末尾一位数字代表前面的数字后0的数量</p>
+<p>51单片机：对于兼容80年代发行的英特尔8051指令系统的单片机的统称</p>
+<p>STM89C516RD+：STM-国产单片机公司，STM89-芯片系列（12T/6T），C-工作电压5.5V~3.4V，516-64k字节ROM，RD+-1280字节RAM</p>
+<p>RAM：随机存取储存器，又叫主存，可以很快地读取储存内容，但只要断电储存内容就会失去（类似于短期记忆）</p>
+<p>ROM：只读存储器，数据一旦存下就固定，不会因断电丢失，叫只读储存器就是因为只能读取不能输入</p>
+<p>CPU：中央处理器，超大规模集成电路，信息读取、程序运行的最终执行单元</p>
+<p>二进制和十六进制转换：</p>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>01</th>
+<th>1</th>
+<th>9</th>
+<th>1001</th>
+<th>9</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>10</td>
+<td>2</td>
+<td>10</td>
+<td>1010</td>
+<td>A</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11</td>
+<td>3</td>
+<td>11</td>
+<td>1011</td>
+<td>B</td>
+</tr>
+<tr>
+<td>4</td>
+<td>100</td>
+<td>4</td>
+<td>12</td>
+<td>1100</td>
+<td>C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>101</td>
+<td>5</td>
+<td>13</td>
+<td>1101</td>
+<td>D</td>
+</tr>
+<tr>
+<td>6</td>
+<td>110</td>
+<td>6</td>
+<td>14</td>
+<td>1110</td>
+<td>E</td>
+</tr>
+<tr>
+<td>7</td>
+<td>111</td>
+<td>7</td>
+<td>15</td>
+<td>1111</td>
+<td>F</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1000</td>
+<td>8</td>
+<td>16</td>
+<td>10000</td>
+<td>10</td>
+</tr>
+</tbody></table>
+<p>缩进：按tab可以缩进，一般两个花括号中间就缩进一格，让代码更有层次</p>
+<p>VCC：正极接入，表示电源电压</p>
+<p>PND：接地端，表示0线或地线，对于电源来说就是负极</p>
+<p>晶振电路：晶体振荡器是为了让电路产生高度稳定的型号而装载的，程序是一条条读取的，不接晶振程序就会停在第一条，而不会继续读取。一个小方块画有两个线的就是晶振在电路上的符号。STC89是外接晶振，且有接上一个电阻用于优化。</p>
+<p>复位电路：用来使电路复原到原本状态。让程序从第一条开始运行，或者运行到中途可以复位。由一个电容一个电阻组成，电容不充电等于短路，让复位电路接上高电平（正极那边），电容充电等于断路，让电路接上低电平（负极那边），高电平时，接入的RST点会受到电平复位。</p>
+<p>单片机能运行的最小单位：电源，晶振电路，复位电路。如果内部有集成复位电路和晶振的话就不用接了。</p>
+<p>void：空的，设定为函数就是不返回值。</p>
+<p>nop（）：是一个空语句，执行了就什么也不做。</p>
+<p>int：整数，单片机是十六位的，能够表示的整数为-32768~32767（2的十六次方）</p>
+<p>unsigned：无符号的，在int前面加上int就是没有正负号的整数，可表示0~65535，long可以表示的数量更多，无符号的情况下就写unsigned long int</p>
+<p>Float double：可以表示浮点数，无有符号有符号之分</p>
+<p>char：是字符型，有有符号无符号之分</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-08-08</span>
+            
+                <span>该篇文章被 Tangentea</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%97%A7%E6%96%87%E6%90%AC%E8%BF%90/'>
+                            旧文搬运
+                        </a>
+                    
+                        <a href='/tags/%E5%8D%95%E7%89%87%E6%9C%BA/'>
+                            单片机
+                        </a>
+                    
+                        <a href='/tags/%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD/'>
+                            兴趣爱好
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E6%9D%82%E8%AF%86/'>
+                            杂识
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+    </div>
+
+
+     
+</div>
+
+
+
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © All right reserved to Tangentea 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> 友链 </a>
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>Гло́ кая ку́ здра ште́ ко будлану́ ла бо́ кра и курдя́ чит бокрёнка</span>
+            
+    
+</div>
+
+
+    
+        
+<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/a11y-dark.min.css">
+
+        
+<script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlight.min.js"></script>
+
+        
+<script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlightjs-line-numbers.js"></script>
+
+    
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+                </div>
+            
+    </body>
+</html>
