@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="单片机小知识" />
+    <meta name="description" content="【持续更新】尤利西斯个人阅读随记" />
     <meta name="hexo-theme-A4" content="v1.7.0" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Le Train de Nulle Part | Press any key to continue ▮</title>
@@ -99,112 +99,29 @@
 
     
         <div class="post-main-title">
-            单片机小知识
+            【持续更新】尤利西斯个人阅读随记
         </div>
       
     
 
     <div class="post-md">
         
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%90%8D%E8%AF%8D"><span class="post-toc-text">名词</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%80%902023-9-5-update%EF%BC%9A%E5%A5%87%E5%A6%99%E7%9A%84%E6%B3%AA%E7%82%B9%E3%80%91"><span class="post-toc-text">【2023-9-5 update：奇妙的泪点】</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%80%902023-9-6-update%EF%BC%9A%E5%85%B1%E5%90%8C%E3%80%91"><span class="post-toc-text">【2023-9-6 update：共同】</span></a></li></ol>
         
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><p>单片机就是一个袖珍计算机，虽然性能不如计算机，但是它的大小和价格都使得它能被广泛运用。</p>
-<h3 id="名词"><a href="#名词" class="headerlink" title="名词"></a>名词</h3><p>程序运行：CPU控制寄存器控制驱动器</p>
-<p>LED灯：发光二极管，受到高电平就会发光</p>
-<p>电阻上的102：10 00→1K 483：48000，末尾一位数字代表前面的数字后0的数量</p>
-<p>51单片机：对于兼容80年代发行的英特尔8051指令系统的单片机的统称</p>
-<p>STM89C516RD+：STM-国产单片机公司，STM89-芯片系列（12T/6T），C-工作电压5.5V~3.4V，516-64k字节ROM，RD+-1280字节RAM</p>
-<p>RAM：随机存取储存器，又叫主存，可以很快地读取储存内容，但只要断电储存内容就会失去（类似于短期记忆）</p>
-<p>ROM：只读存储器，数据一旦存下就固定，不会因断电丢失，叫只读储存器就是因为只能读取不能输入</p>
-<p>CPU：中央处理器，超大规模集成电路，信息读取、程序运行的最终执行单元</p>
-<p>二进制和十六进制转换：</p>
-<table>
-<thead>
-<tr>
-<th>1</th>
-<th>01</th>
-<th>1</th>
-<th>9</th>
-<th>1001</th>
-<th>9</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>2</td>
-<td>10</td>
-<td>2</td>
-<td>10</td>
-<td>1010</td>
-<td>A</td>
-</tr>
-<tr>
-<td>3</td>
-<td>11</td>
-<td>3</td>
-<td>11</td>
-<td>1011</td>
-<td>B</td>
-</tr>
-<tr>
-<td>4</td>
-<td>100</td>
-<td>4</td>
-<td>12</td>
-<td>1100</td>
-<td>C</td>
-</tr>
-<tr>
-<td>5</td>
-<td>101</td>
-<td>5</td>
-<td>13</td>
-<td>1101</td>
-<td>D</td>
-</tr>
-<tr>
-<td>6</td>
-<td>110</td>
-<td>6</td>
-<td>14</td>
-<td>1110</td>
-<td>E</td>
-</tr>
-<tr>
-<td>7</td>
-<td>111</td>
-<td>7</td>
-<td>15</td>
-<td>1111</td>
-<td>F</td>
-</tr>
-<tr>
-<td>8</td>
-<td>1000</td>
-<td>8</td>
-<td>16</td>
-<td>10000</td>
-<td>10</td>
-</tr>
-</tbody></table>
-<p>缩进：按tab可以缩进，一般两个花括号中间就缩进一格，让代码更有层次</p>
-<p>VCC：正极接入，表示电源电压</p>
-<p>PND：接地端，表示0线或地线，对于电源来说就是负极</p>
-<p>晶振电路：晶体振荡器是为了让电路产生高度稳定的型号而装载的，程序是一条条读取的，不接晶振程序就会停在第一条，而不会继续读取。一个小方块画有两个线的就是晶振在电路上的符号。STC89是外接晶振，且有接上一个电阻用于优化。</p>
-<p>复位电路：用来使电路复原到原本状态。让程序从第一条开始运行，或者运行到中途可以复位。由一个电容一个电阻组成，电容不充电等于短路，让复位电路接上高电平（正极那边），电容充电等于断路，让电路接上低电平（负极那边），高电平时，接入的RST点会受到电平复位。</p>
-<p>单片机能运行的最小单位：电源，晶振电路，复位电路。如果内部有集成复位电路和晶振的话就不用接了。</p>
-<p>void：空的，设定为函数就是不返回值。</p>
-<p>nop（）：是一个空语句，执行了就什么也不做。</p>
-<p>int：整数，单片机是十六位的，能够表示的整数为-32768~32767（2的十六次方）</p>
-<p>unsigned：无符号的，在int前面加上int就是没有正负号的整数，可表示0~65535，long可以表示的数量更多，无符号的情况下就写unsigned long int</p>
-<p>Float double：可以表示浮点数，无有符号有符号之分</p>
-<p>char：是字符型，有有符号无符号之分</p>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><h3 id="【2023-9-5-update：奇妙的泪点】"><a href="#【2023-9-5-update：奇妙的泪点】" class="headerlink" title="【2023-9-5 update：奇妙的泪点】"></a>【2023-9-5 update：奇妙的泪点】</h3><p>看到结尾Molly的那段意识流，Poldy在草地上抱着女朋友求婚，Molly想到城市中的景，思绪又回到当下，一切似乎都那么美好，然后她说”Yes,I will.”莫名就哭了。</p>
+<p>理解不了人类之间对于夫妻关系的认知，我觉得Bloom家这俩夫妻的关系某种意义上来说蛮好，虽然两个人的肉体早就不属于对方了但是两个人其实还是很庆幸能够和对方生活在一起，Molly虽然有那么多外遇但是说到头来她就觉得自己老公最好，把其他男人都一个个在她的思绪中否定。，在她的幻想里面她希望自己的外遇和丈夫能组成个大后宫，幻想世界被女人统治……然后又想起来小Rudy，醢，悲惨。</p>
+<p>当然我妈要去找外遇的话我肯定会崩溃。</p>
+<p>这本书里面这种莫名让人流泪的地方不少，15、17、18这三章节结尾都莫名催泪，15集明明是幻象但是Rudy的名字真的出现在了剧本对白当中，仿佛那一刻我们就体会到Poldy的感觉，真的再见到十一岁的儿子出现在眼前。17集结尾Poldy看着自己的儿子在生命中疲倦，随着水手远行堕入黑暗，自己也逐渐陷入沉睡……这里面这种让人无可奈何的亲情，命运的无常真的让人好难受，3章里面Kinch把海水和母亲的死联系在一起，也相当让人难过。</p>
+<h3 id="【2023-9-6-update：共同】"><a href="#【2023-9-6-update：共同】" class="headerlink" title="【2023-9-6 update：共同】"></a>【2023-9-6 update：共同】</h3><p>Bloom先生不如奥德修斯那样勇猛，但是和奥德修斯一样完整。</p>
+<p>Molly不如帕涅罗珀那样忠贞，但是和帕涅罗珀一样迷人。</p>
+<p>而Kinch，他除了是个儿子角色之外没啥子和忒勒马科斯的相似之处，倒是和哈姆雷特一样，一千个人眼里有一千把艺术尖刀（就像一千个人眼里有一千个乔伊斯，一千个人眼里有十万个《尤利西斯》），在我眼里，他的确是这本书中一个“儿子”的代表角色，甚至让书外边的我对他产生了母爱= =</p>
 
     </div>
 
     <div class="post-meta">
         <i>
         
-            <span>2022-08-08</span>
+            <span>2023-09-05</span>
             
                 <span>该篇文章被 Tangentea</span>
             
@@ -212,16 +129,16 @@
                 <span>打上标签:
                     
                     
-                        <a href='/tags/%E6%97%A7%E6%96%87%E6%90%AC%E8%BF%90/'>
-                            旧文搬运
-                        </a>
-                    
-                        <a href='/tags/%E5%8D%95%E7%89%87%E6%9C%BA/'>
-                            单片机
-                        </a>
-                    
                         <a href='/tags/%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD/'>
                             兴趣爱好
+                        </a>
+                    
+                        <a href='/tags/%E4%B9%A6/'>
+                            书
+                        </a>
+                    
+                        <a href='/tags/Joyce/'>
+                            Joyce
                         </a>
                     
                 </span>
@@ -230,8 +147,8 @@
                 <span>归为分类:
                     
                     
-                        <a href='/categories/%E6%9D%82%E8%AF%86/'>
-                            杂识
+                        <a href='/categories/%E7%AC%94%E8%B0%88/'>
+                            笔谈
                         </a>
                     
                 </span>
