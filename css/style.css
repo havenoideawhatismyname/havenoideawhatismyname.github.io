@@ -19,7 +19,7 @@ p
 body
 {
     /* font-family: "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; */
-    font-family: "Times New Roman";
+    font-family: "SourceHanSerifCN-SemiBold","Times New Roman";
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.6px;
@@ -662,3 +662,29 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     }
 }
 
+.post-md>table
+{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.post-md>table th
+{
+    padding: 12px 0;
+    background: #4f7dde;
+    color:#fff
+}
+
+.post-md>table tr:nth-child(odd) td
+{
+    padding: 15px ;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #ddd;
+    background: #F8F9F4;
+}
+.post-md>table tr:nth-child(even) td
+{
+    padding: 15px ;
+    border: 2px solid #ddd;
+    background: #fff;
+}
