@@ -127,6 +127,33 @@
     width: 100%;
 }
 
+.post-md>table
+{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.post-md>table th
+{
+    padding: 12px 0;
+    background: #4f7dde;
+    color:#fff
+}
+
+.post-md>table tr:nth-child(odd) td
+{
+    padding: 15px ;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #ddd;
+    background: #F8F9F4;
+}
+.post-md>table tr:nth-child(even) td
+{
+    padding: 15px ;
+    border: 2px solid #ddd;
+    background: #fff;
+}
+
 .post-md code
 {
     border-radius: 4px;
