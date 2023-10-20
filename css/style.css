@@ -19,12 +19,12 @@ p
 body
 {
     /* font-family: "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; */
-    font-family: "SourceHanSerifCN-SemiBold","Times New Roman";
+    font-family: "Times New Roman";
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.6px;
     color: var(--font-color-1);
-    background: #efeaf2;
+    background: #e4e4e4;
 }
 a
 {
@@ -33,15 +33,14 @@ a
 }
   a:hover {
     color: #663366;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #6B8386;
+    text-decoration: underline;
     }
 
 
 .paper
 {
     padding: 4vw;
-    background: #efeaf2;
+    background: #e4e4e4;
 }
 .paper-main
 {
@@ -538,12 +537,11 @@ a
 } 
 
 .archive-main a:visited { 
-    color:#663366; 
+    color:#9c9caf; 
     text-decoration: underline; 
 } 
 .archive-main a:hover {
-    color:#663366;
-    text-shadow: 0px 0px 0px #6B8386;
+    color:#000000;
     text-decoration: underline; 
 }
 
@@ -567,12 +565,8 @@ a
 }
 
 .header a:hover {
-    color: #663366;
     text-decoration: none;
-    text-shadow: 1px 1px 2px #6B8386;
 }
-
-
 
 
 
@@ -662,29 +656,3 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     }
 }
 
-.post-md>table
-{
-    width: 100%;
-    border: 1px solid #ddd;
-    border-collapse: collapse;
-}
-.post-md>table th
-{
-    padding: 12px 0;
-    background: #4f7dde;
-    color:#fff
-}
-
-.post-md>table tr:nth-child(odd) td
-{
-    padding: 15px ;
-    border: 2px solid #fff;
-    border-bottom: 2px solid #ddd;
-    background: #F8F9F4;
-}
-.post-md>table tr:nth-child(even) td
-{
-    padding: 15px ;
-    border: 2px solid #ddd;
-    background: #fff;
-}
