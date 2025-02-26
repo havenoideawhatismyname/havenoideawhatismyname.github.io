@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/mkgnao3/img/cat.png">
-  <link rel="icon" href="/mkgnao3/img/cat.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/cat.png">
+  <link rel="icon" href="/img/cat.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -19,17 +19,17 @@
     <meta name="description" content="如你所见最近在学C#，目前了解了各个编程语言都有的那部分概念，当然这篇东西重点不在于C#，我只是借用C#比喻荒原，或许搞错了语法。 荒原，艾略特老师的诗歌，文青的圣经，奠定了艾略特老师在我心中的地位的作品。虽然是一首如《飞行》那样充满了历史与典故的诗歌，但是许多地方我并未详细了解——或许不该称作许多地方，该说是“绝大多数地方”吧（笑） 今天再读荒原突然感觉到一种强烈的情绪，于是开机crtl+n想写">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C#如荒原一般残酷压抑">
-<meta property="og:url" content="https://havenoideawhatismyname.github.io/mkgnao3/2023/12/11/Csharp-as-wasteland/index.html">
+<meta property="og:url" content="https://havenoideawhatismyname.github.io/2023/12/11/Csharp-as-wasteland/index.html">
 <meta property="og:site_name" content="Le Train de Nulle Part">
 <meta property="og:description" content="如你所见最近在学C#，目前了解了各个编程语言都有的那部分概念，当然这篇东西重点不在于C#，我只是借用C#比喻荒原，或许搞错了语法。 荒原，艾略特老师的诗歌，文青的圣经，奠定了艾略特老师在我心中的地位的作品。虽然是一首如《飞行》那样充满了历史与典故的诗歌，但是许多地方我并未详细了解——或许不该称作许多地方，该说是“绝大多数地方”吧（笑） 今天再读荒原突然感觉到一种强烈的情绪，于是开机crtl+n想写">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://havenoideawhatismyname.github.io/mkgnao3/img/col/aaa.jpg">
+<meta property="og:image" content="https://havenoideawhatismyname.github.io/img/col/aaa.jpg">
 <meta property="article:published_time" content="2023-12-10T16:00:00.000Z">
 <meta property="article:modified_time" content="2024-06-23T14:47:55.422Z">
 <meta property="article:author" content="Tangentea">
 <meta property="article:tag" content="诗歌">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://havenoideawhatismyname.github.io/mkgnao3/img/col/aaa.jpg">
+<meta name="twitter:image" content="https://havenoideawhatismyname.github.io/img/col/aaa.jpg">
   
   
   
@@ -57,12 +57,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
-<link  rel="stylesheet" href="/mkgnao3/css/main.css" />
+<link  rel="stylesheet" href="/css/main.css" />
 
 
-  <link id="highlight-css" rel="stylesheet" href="/mkgnao3/css/highlight.css" />
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
   
-    <link id="highlight-css-dark" rel="stylesheet" href="/mkgnao3/css/highlight-dark.css" />
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
@@ -71,15 +71,15 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"havenoideawhatismyname.github.io","root":"/mkgnao3/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"🐱","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/mkgnao3/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"havenoideawhatismyname.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"🐱","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
       Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
     }
   </script>
-  <script  src="/mkgnao3/js/utils.js" ></script>
-  <script  src="/mkgnao3/js/color-schema.js" ></script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
   
 
 
@@ -96,7 +96,7 @@
 <div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand" href="/mkgnao3/">
+    <a class="navbar-brand" href="/">
       <strong>Mkgnao Evolutions</strong>
     </a>
 
@@ -115,7 +115,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/mkgnao3/" target="_self">
+              <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
               </a>
@@ -127,7 +127,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/mkgnao3/categories/" target="_self">
+              <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
                 <span>分类</span>
               </a>
@@ -139,7 +139,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/mkgnao3/tags/" target="_self">
+              <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
                 <span>标签</span>
               </a>
@@ -151,7 +151,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/mkgnao3/archives/" target="_self">
+              <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
               </a>
@@ -163,7 +163,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/mkgnao3/about/" target="_self">
+              <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-code"></i>
                 <span>关于</span>
               </a>
@@ -193,7 +193,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/mkgnao3/img/col/elec.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/img/col/elec.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -437,7 +437,7 @@
     
       <span class="category-chain">
         
-  <a href="/mkgnao3/categories/%E7%AC%94%E8%B0%88/" class="category-chain-item">笔谈</a>
+  <a href="/categories/%E7%AC%94%E8%B0%88/" class="category-chain-item">笔谈</a>
   
   
 
@@ -452,7 +452,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/mkgnao3/tags/%E8%AF%97%E6%AD%8C/" class="print-no-link">#诗歌</a>
+        <a href="/tags/%E8%AF%97%E6%AD%8C/" class="print-no-link">#诗歌</a>
       
     </div>
   
@@ -465,7 +465,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>C#如荒原一般残酷压抑</div>
-      <div>https://havenoideawhatismyname.github.io/mkgnao3/2023/12/11/Csharp-as-wasteland/</div>
+      <div>https://havenoideawhatismyname.github.io/2023/12/11/Csharp-as-wasteland/</div>
     </div>
     <div class="license-meta">
       
@@ -509,7 +509,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/mkgnao3/2024/05/23/hello-world/" title="Hello World">
+                      <a href="/2024/05/23/hello-world/" title="Hello World">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">上一篇</span>
@@ -519,7 +519,7 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/mkgnao3/2023/07/31/orginal-game-I-want-to-fly-the-plane/" title="自制游戏《我想开飞机》下载入口">
+                      <a href="/2023/07/31/orginal-game-I-want-to-fly-the-plane/" title="自制游戏《我想开飞机》下载入口">
                         <span class="hidden-mobile">自制游戏《我想开飞机》下载入口</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -649,8 +649,8 @@
 
 <script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/mkgnao3/js/events.js" ></script>
-<script  src="/mkgnao3/js/plugins.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
@@ -672,7 +672,7 @@
 
 
   
-    <script  src="/mkgnao3/js/img-lazyload.js" ></script>
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
@@ -771,7 +771,7 @@
 
   <script>Fluid.plugins.imageCaption();</script>
 
-  <script  src="/mkgnao3/js/local-search.js" ></script>
+  <script  src="/js/local-search.js" ></script>
 
 
 
@@ -779,7 +779,7 @@
 
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
-<script  src="/mkgnao3/js/boot.js" ></script>
+<script  src="/js/boot.js" ></script>
 
 
   
